@@ -4,28 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coding Quiz</title>
     <link rel="stylesheet" href="./style.css"></link>
 </head>
 
 <body>
     <div class='mainContainer'>
-        <div class='introContainer'>
-            <h1>Welcome to this quiz!</h1>
-            <button id='startBtn'>
-                Click Me
-            </button>
+        <div id='introContainer'>
+            <h1>Coding Quiz Challenge!</h1>
         </div>
-        <div class='quizContainer'>
-            <div class='questions'>
+        <div id='quizContainer' class='hide'>
+            <div id='questions'>
                 <h1>This is where questions are</h1>
             </div>
-            <div class='choices'>
-                <h2>This is choices</h2>
+            <div id='choices' class='btn-grid'>
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
             </div>
         </div>
-        <div class='scoreContainer'>
+        <div class='scoreContainer' class="hide">
             <h2>These are scores</h2>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start this quiz!</button>
+            <button id="next-btn" class="next-btn btn hide">Next Question</button>
         </div>
 
 
