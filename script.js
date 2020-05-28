@@ -116,6 +116,28 @@ var questions = [{
             },
         ]
     },
+
+    {
+        question: "How do you create a function in JavaScript?",
+        answers: [{
+                text: 'function:myFunction()',
+                correct: false
+            },
+            {
+                text: 'function myFunction()  ',
+                correct: true
+            },
+            {
+                text: 'function = myFunction()',
+                correct: false
+            },
+            {
+                text: 'function => myFunction()  ',
+                correct: false
+            },
+        ]
+    },
+
     {
         question: 'Who invented JavaScript?',
         answers: [{

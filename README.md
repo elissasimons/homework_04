@@ -1,6 +1,6 @@
 # Homework 4 - Coding Quiz
 
-This is my quiz with questions about JavaScript!
+This is my quiz with questions about JavaScript! I had a really tough time with this one. I figured out the basic structure of the quiz, but could not for the life of me figure out how to implement a timer or scorecard. I tried a few things that didn't work and honestly just ran out of time. I would like to revisit this later on.
 
 ## Ackowledgements:
 
