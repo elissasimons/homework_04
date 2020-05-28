@@ -2,6 +2,12 @@
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif
   }
+  
+  :root {
+    --hue-neutral: 336;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+  }
 
   .title {
       text-align: center;
@@ -38,14 +44,26 @@
   }
   
   .btn {
+    --hue: var(--hue-neutral);
+    border: 1px solid hsl(var(--hue), 75%, 30%);
+    background-color: hsl(var(--hue), 61%, 63%);
     border-radius: 5px;
     padding: 5px 10px;
-    color: black;
-    border-radius: 5px;
+    color:white;
+    outline: none;
+    font-weight: bold;
   }
   
   .btn:hover {
     border-color: #df4d6f;
+  }
+  .btn.correct {
+    --hue: var(--hue-correct);
+    color: black;
+  }
+  
+  .btn.wrong {
+    --hue: var(--hue-wrong);
   }
   
   .start-btn, .next-btn {

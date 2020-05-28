@@ -3,8 +3,7 @@ var nextButton = document.getElementById('next-btn')
 var questionContainerElement = document.getElementById('quiz-container')
 var questionElement = document.getElementById('question')
 var answerButtonsElement = document.getElementById('answer-buttons')
-
-let shuffledQuestions, currentQuestionIndex
+var shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
